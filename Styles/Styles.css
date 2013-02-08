@@ -1,0 +1,24 @@
+﻿p 
+{
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+hr 
+{
+    height: 4px;
+    width: 60%;
+    background-color: green;
+
+}
+
+header 
+{
+    text-align: center;
+    width: 800px;
+}
+
+footer {
+    height: 50px;
+}
