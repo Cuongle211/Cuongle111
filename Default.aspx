@@ -23,7 +23,7 @@
 
         <p>Education</p>
         <ul>
-            <li>2013, Student, University of California, Long Beach</li>
+            <li>2013, Student, California State University, Long Beach</li>
             <li>2012, Student, Long Beach City College</li>
         </ul>
 
