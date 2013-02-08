@@ -19,7 +19,7 @@
         <h4><em>Welcome to IS445 Homework 1</em></h4>
         <img src="Images/thetungsgreetings.png" />
     </header>
-    <div>
+    <div style=margin-left:20px>
 
         <p>Education</p>
         <ul>
@@ -47,7 +47,7 @@
         </ul>
 
     </div>
-    <footer>
+    <footer height="50px">
     </footer>
 
 </body>
