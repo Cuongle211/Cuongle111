@@ -10,12 +10,17 @@ hr
     height: 4px;
     width: 60%;
     background-color: green;
-
 }
 
 header 
 {
     text-align: center;
     width: 800px;
+    margin: 0 auto
 }
 
+div
+{
+    width: 800px;
+    margin: 0 auto;
+}

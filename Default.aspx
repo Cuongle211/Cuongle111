@@ -16,10 +16,10 @@
         <h1><strong>Sathavann Tung</strong></h1>
         <hr />
 
-        <h4><em>Welcome to IS445 Homework 1</em></h4>
+        <h3><em>Welcome to IS445 Homework 1</em></h3>
         <img src="Images/thetungsgreetings.png" />
     </header>
-    <div style=margin-left:20px>
+    <div>
 
         <p>Education</p>
         <ul>
@@ -47,7 +47,7 @@
         </ul>
 
     </div>
-    <footer height="50px">
+    <footer style="height:50px">
     </footer>
 
 </body>
