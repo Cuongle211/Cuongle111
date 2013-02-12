@@ -28,20 +28,20 @@
         </ul>
 
         <p>Experience</p>
-        <ul>
+        <ol>
             <li>2009, Math Tutor, Long Beach City College, 1 year
             </li>
             <li>2003, Operations Specialist, United States Navy, 5 years
             </li>
-        </ul>
+        </ol>
         <p>Expectations for this course</p>
-        <ul>
-            <li>Make real time drawing application
-            </li>
-            <li>Make a transaction system
+        
+        Make real time drawing application, make a transaction system, and make interactive website designs
+        
+        
 
-            </li>
-            <li>Make interactive website designs
+        
+        
 
             </li>
         </ul>
