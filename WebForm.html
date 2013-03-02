@@ -4,16 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <title>Web Form</title>
-     <style type="text/css">
-        html { height: 101%
-        }
-</style>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body style="width: 800px; margin: 0 auto">
+<body>
     <header>
-        <h1 style="text-align: center">Tung, Sathavann Homework 2</h1>
-        <hr style="height: 10px; background-color: lightgreen" />
+        <h1>Tung, Sathavann Homework 3</h1>
+        <hr />
         <nav>
             <a href="Default.html">Home</a>
             <a href="WebForm.html">Web Form</a>
@@ -28,15 +25,15 @@
             <legend>Customer Information
             </legend>
             <label for="fullname">Full Name:</label>
-            <input type="text" name="Full Name" id="fullname" placeholder="Firstname Lastname" 
-                required autofocus pattern="[a-zA-Z]{1,20}[\s][A-Za-z]{1,20}" title="No numbers"/>
+            <input type="text" name="Full Name" id="fullname" placeholder="Firstname Lastname"
+                required autofocus pattern="[a-zA-Z]{1,20}[\s][A-Za-z]{1,20}" title="No numbers" />
             <br />
             <label for="emailaddress">Email Address:</label>
             <input type="email" name="Email Address" id="emailaddress" required />
             <br />
             <label for="telephone">Phone:</label>
-            <input type="tel" name="Telephone" id="telephone" required pattern="\d{3}[\-]\d{3}[\-]\d{4}" 
-                title="Format ###-###-####"/>
+            <input type="tel" name="Telephone" id="telephone" required pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+                title="Format ###-###-####" />
         </fieldset>
         <fieldset>
             <legend>Room Information
@@ -48,11 +45,11 @@
             <input type="time" name="Arrival Time" id="arrivaltime" />
             <br />
             <label for="roomtype">Select a room type: </label>
-        <select name="Room Type" id="roomtype">
-            <option value="Luxury">Luxury</option>
-            <option value="Standard">Standard</option>
-            <option value="Economic">Economic</option>
-        </select>
+            <select name="Room Type" id="roomtype">
+                <option value="Luxury">Luxury</option>
+                <option value="Standard">Standard</option>
+                <option value="Economic">Economic</option>
+            </select>
             <br />
             <label for="nights">Number of nights (valid number is from 1 to 30):</label>
             <input type="number" name="Number of Nights" id="nights" value="1" min="1" max="30" />
@@ -64,24 +61,22 @@
             <legend>Other Information
             </legend>
             <label for="promocode">Promo code:</label>
-            <input type="text" name="Promo Code" id="promocode" pattern="[a-zA-Z0-9]{4}" 
-                title="Alphanumeric 4-character only"/>
+            <input type="text" name="Promo Code" id="promocode" pattern="[a-zA-Z0-9]{4}"
+                title="Alphanumeric 4-character only" />
             <br />
             <label for="specialnote">Special Note:</label>
-            <textarea name="Special Note" id="specialnote" rows="5" cols="40" 
+            <textarea name="Special Note" id="specialnote" rows="5" cols="40"
                 placeholder="Enter your special notes here"></textarea>
         </fieldset>
         <input type="reset" name="Reset Form" id="reset" value="Clear Form" />
         <input type="submit" name="Submit Form" id="submit" value="Request Reservation" />
     </form>
     <footer>
-        <p>
-            Contact Information
-            <br />
-            <a href="mailto:twan.tung@gmail.com"><em>Email: twan.tung@gmail.com</em></a>
-            <br />
-            <em>Phone: (562) 688-2000</em>
-        </p>
+        Sathavann Tung&#169 Contact Information
+                    <address>
+                        <a href="mailto:twan.tung@gmail.com"><em>Email: twan.tung@gmail.com</em></a>
+                        <em>Phone: (562) 688-2000</em>
+                    </address>
     </footer>
 </body>
 </html>
