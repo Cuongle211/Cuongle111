@@ -1,0 +1,83 @@
+﻿body {
+    text-align: center;
+    max-width: 900px;
+    max-height: 425px;
+}
+
+
+#flexbox {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+    
+    -webkit-flex-wrap: wrap;
+}
+
+.box1 {
+    
+    
+  width:auto;  
+}
+
+.box2 {
+    width:auto;
+   -webkit-flex:1;
+}
+
+.box3 {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    
+}
+
+
+
+.box4 {
+    width: auto;
+}
+
+header {
+    background-color: yellow;
+}
+
+nav {
+    background-color: lightgreen;
+}
+
+article {
+    background-color: red;
+    -webkit-flex: 2;
+}
+
+
+
+section {
+    background-color: blue;
+    margin: 10px 0 10px 0;
+    color: white;
+}
+
+aside {
+    background-color: silver;
+    -webkit-flex: 1;
+}
+
+footer {
+    background-color: lightgreen;
+}
+
+li {
+    /*display: inline-block;*/
+    margin: 0 5px 0 5px;
+    -webkit-flex: 1;
+}
+
+ul {
+    /*display: -webkit-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;*/
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-flex: 1;
+}

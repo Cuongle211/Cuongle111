@@ -1,0 +1,62 @@
+﻿body {
+    text-align: center;
+    
+}
+
+#flexbox {
+    display: -webkit-flex;
+    -webkit-flex-direction: column; /*Outer layout is column*/
+    -webkit-justify-content: center;
+    margin: auto;
+    max-width: 900px;
+
+}
+   
+
+
+.box1 {
+    display: -webkit-flex; 
+    -webkit-flex-direction: row;    /*inner layout is rows*/
+
+}
+
+header {
+    background-color: yellow;
+   
+}
+
+
+nav {
+    background-color: lightgreen;
+    
+}
+
+article {
+    background-color: red;
+    -webkit-flex: 2;
+   
+}
+
+section {
+    background-color: blue;
+    margin: 10px 0 10px 0;
+    
+    color: white;
+}
+
+aside {
+    background-color: silver;
+    -webkit-flex: 1;
+   
+}
+
+footer {
+    background-color: lightgreen;
+}
+
+ul {
+  
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+       -webkit-justify-content: space-around;
+}

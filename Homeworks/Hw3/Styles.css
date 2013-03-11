@@ -31,8 +31,8 @@ nav a:hover {
 footer {
     border-top-style: double;
     padding-top: 5px;
-    font-size: small;
     margin-top: 5px;
+    font-size: small;
 }
 
 form {
