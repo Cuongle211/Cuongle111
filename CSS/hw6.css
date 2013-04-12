@@ -1,5 +1,9 @@
-﻿h4 {
+﻿label {
+    width: 4em;
     display: inline-block;
-    margin-right: 5em;
+    margin-left: 2em;
+    padding: 0;
+     
 }
+
 
