@@ -1,0 +1,85 @@
+﻿
+form {
+    border-style: outset;
+    padding: 10px;
+    border-color: green;
+    margin-bottom: 10px;
+}
+
+.h1center {
+    text-align: center;
+    margin: auto 0;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.h2centerblue {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.h3centerblack {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.h3purple {
+    color: purple;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+hr {
+    height: 8px;
+    background-color: #00FF00;
+}
+
+nav {
+    margin: 2em;
+    text-align: right;
+}
+
+a {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+    a:link {
+        text-decoration: none;
+    }
+
+nav a:hover {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+footer {
+    border-top-style: double;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: small;
+}
+
+
+
+.marginright20px {
+    margin-right: 20px;
+}
+
+address {
+    display: inline-block;
+}
+
+img {
+    float: right;
+}

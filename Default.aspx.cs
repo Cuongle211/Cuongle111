@@ -9,9 +9,6 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        NameLabel.Text = "Name: " + NameTB.Text.ToString();
-        CardTypeLabel.Text = "Card Type: " + CardTypeDDL.SelectedValue.ToString();
-        ExpirationLabel.Text = "Exp Date: " + ExpCalendar.SelectedDate.ToString("MM/yy");
+
     }
-       
 }

@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   
+    <header>
+        <asp:Label ID="Label1" runat="server" Text="Tung, Sathavann Homework 7" CssClass="h1center" Width="572px"></asp:Label>
+        
+        <hr />
+        
+    </header>
+     <form id="form1" runat="server">
+        <nav>
+            <asp:HyperLink ID="HyperHome" runat="server" NavigateUrl="~/Default.aspx" Text="Home"></asp:HyperLink>
+            <asp:HyperLink ID="HyperWebForm" runat="server" NavigateUrl="~/WebForm.aspx" Text="Web Form"></asp:HyperLink>
+            <asp:HyperLink ID="HyperAbout" runat="server" NavigateUrl="~/About.aspx" Text="About me"></asp:HyperLink>
+         
+            
+        </nav>
+    
+        
+    <div>
+        <asp:ContentPlaceHolder id="cpMain" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <footer>
+        <asp:Label ID="Label2" runat="server" Text="Sathavann Tung &amp;copy Contact Information" CssClass="marginright20px"></asp:Label>
+                        <address>
+                            <asp:HyperLink ID="HyperMail" text="Email: twan.tung@gmail.com" runat="server" NavigateUrl="mailto:twan.tung@gmail.com" CssClass="marginright20px" Font-Italic="True"></asp:HyperLink>
+                            <asp:Label ID="Label3" runat="server" Text="Phone: (562) 688-2000" CssClass="marginright20px"></asp:Label>
+                        </address>
+    </footer>
+</body>
+</html>
